@@ -15,10 +15,10 @@ The function receives the following parameters:
                 or a set of random nodes (igraph object)
                 
       subgraph.node.index = provides the node indices of the subgraph
-                           by defaulft 1
+                           by default 1
                            
       subgraph.edge.index = provides the link indices of the subgraph
-                           by defaulft 1
+                           by default 1
                            
       community.detection = a logical parameter. Shall community detection
                            be performed? As this is a time consuming process
