@@ -40,6 +40,6 @@ The function receives the following parameters:
  Trends in Biotechnology, Vol. 31, Issue 1, Pages 29-36.
  The CN should be converted into an igraph object.
  Also, pathways/subgraphs should be supplied as igraph objects.
- NOTE: a CN is not supplied here
+ NOTE: a CN is not supplied here.
  The libraries 'igraph' and 'e1071' need to be preinstalled in order for the corresponding
  source code to run.
