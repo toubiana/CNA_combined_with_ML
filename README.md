@@ -41,5 +41,5 @@ The function receives the following parameters:
  The CN should be converted into an igraph object.
  Also, pathways/subgraphs should be supplied as igraph objects.
  NOTE: a CN is not supplied here
- The libraries igraph and e1071 need to be preinstalled in order for the corresponding
+ The libraries 'igraph' and 'e1071' need to be preinstalled in order for the corresponding
  source code to run.
