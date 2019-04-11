@@ -1,4 +1,4 @@
-# CNA_combined_with_ML
+# Source code: CNA_combined_with_ML
 Code to compute network properties (features) for subgraphs of a correlation-based network
 ## DESCRIPTION:
 The file .R contains all functions used to compute network features as described in the
