@@ -1,7 +1,7 @@
 # Source code: CNA_combined_with_ML
 Code to compute network properties (features) for subgraphs of a correlation-based network
 ## DESCRIPTION:
-The file .R contains all functions used to compute network features as described in the
+The file CNA_combind_with_ML.R found under URL: contains all functions used to compute network features as described in the
 corresponding publication by Toubiana et al. (Communications Biology, 2019).
 For each pathway/subgraph all feature functions need to be executed in order
 to obtain feature values for all metabolic pathways.
