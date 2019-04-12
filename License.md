@@ -4,6 +4,7 @@ License
 The following license governs the use of the source code for CNA_combined_with_ML in academic and educational environments. 
 Commercial use requires a commercial license from the author directly: 
           David Toubiana
+          
           email: dtoubiana@ucdavis.edu or david.toubiana@gmail.com
           
 ACADEMIC PUBLIC LICENSE
