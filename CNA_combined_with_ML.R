@@ -1,4 +1,4 @@
-## ------------------------------DISCLAIMER-------------------------------------##
+## -----------------------------------------------DISCLAIMER-----------------------------------------------------##
 ## This SOFTWARE PRODUCT is provided by THE PROVIDER "as is" and "with all faults."
 ## THE PROVIDER makes no representations or warranties of any kind concerning the safety,
 ## suitability, lack of viruses, inaccuracies, typographical errors, or other harmful
@@ -10,9 +10,9 @@
 ## modifying, or distributing this SOFTWARE PRODUCT.
 
 
-## ------------------------------AUTHOR: DAVID TOUBIANA----------------------------------------##
+## ---------------------------------------------AUTHOR: DAVID TOUBIANA--------------------------------------------##
 
-## ---------------------------------DESCRIPTION------------------------------------------------##
+## -------------------------------------------------DESCRIPTION---------------------------------------------------##
 ## this file contains all functions used to compute network features as described in the
 ## corresponding publication by Toubiana et al. (Communications Biology, 2019)
 ## for each pathway/subgraph all feature functions need to be executed in order
@@ -36,9 +36,9 @@
 ## structured as the following:
 ## One HEAD FUNCTION, which returns the mean, sd, skewness, and kurtosis as one variable
 ## seperate functions, which return on of central moments only, e.g. see functions 2-5
-## ---------------------------------DESCRIPTION END--------------------------------------------##
+## ---------------------------------------------------DESCRIPTION END-------------------------------------------------##
 
-## ------------------------------PREREQUISITES-------------------------------------------------##
+## ----------------------------------------------------PREREQUISITES--------------------------------------------------##
 ## the following code is based on a correlation based network, where nodes in the network
 ## represent metabolites and links between them the significant correlations
 ## prior to constructing the network, spurious links ought to be removed
@@ -50,9 +50,9 @@
 ## NOTE: a CN is not supplied here
 ## the libraries 'igraph' and 'e1071' need to be preinstalled in order for the following
 ## source code to run
-## ------------------------------PREREQUISITES END-------------------------------------------##
+## -------------------------------------------------PREREQUISITES END---------------------------------------------------##
 
-## --------------------------------LICENSE---------------------------------------------------##
+## -----------------------------------------------------LICENSE---------------------------------------------------------##
 
 # License
 # 
@@ -214,9 +214,9 @@
 # 
 # In case the above text differs from the license file in the source distribution, the latter is the valid one.
 
-## --------------------------------LICENSE END-----------------------------------------------##
+## -------------------------------------------------LICENSE END-------------------------------------------------------------------------##
 
-## ------------------------------FUNCTIONS---------------------------------------------------##
+## --------------------------------------------------FUNCTIONS--------------------------------------------------------------------------##
 ## function network_features
 network_features  <- function(graph, subgraph, subgraph.node.index=1,subgraph.edge.index=1,
                               community.detection=F){
@@ -2720,4 +2720,4 @@ weighted.stress.centrality <- function(graph,subgraph.node.index){
     options(warn = 0)
     return(c(mean(stress.cent),sd(stress.cent),skewness(stress.cent),kurtosis(stress.cent)))
 } # end function
-## ------------------------------FUNCTIONS END-------------------------------------------------------------------##
+## -----------------------------------------------------FUNCTIONS END-------------------------------------------------------------------##
